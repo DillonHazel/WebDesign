@@ -1,11 +1,15 @@
 h1 {
   padding: 35px;
   text-align: center;
-  background-color: snow;
+  background-color: beige;
   }
-h2, h3 {
+h2, h3, h4 {
 text-align: center;
 } 
+h2, h3 {
+  background-color: beige;
+}
+
 body {
-background-color: powderblue;
+background-color: salmon;
 }
