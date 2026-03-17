@@ -6,9 +6,7 @@ header-container {
   flex-direction: column;
 }
 
-li {
-  list-style-image: url('Johnny Dangerously.png');
-}
+
 header-container h1,
 header-container h2 {
   margin: 0;
@@ -29,4 +27,8 @@ h2, h3 {
 
 body {
 background-color: salmon;
+}
+
+li {
+  list-style-image: url('Johnny Dangerously.png');
 }
