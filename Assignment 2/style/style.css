@@ -1,11 +1,14 @@
 header-container {
-  background-color: beige;
+  background-color: #000000;
   padding: 20px;
   border-radius: 50px;
   display: flex;
   flex-direction: column;
 }
 
+header {
+  color: white
+}
 
 header-container h1,
 header-container h2 {
@@ -13,21 +16,40 @@ header-container h2 {
   padding: 5px 0;
 }
 
+.center-photo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+p {
+  color: white
+}
+
 h1 {
   padding: 35px;
   text-align: center;
-  background-color: beige;
+  color: white
+  background-color: #000000;
   }
 h2, h3, h4 {
 text-align: center;
+color: white
 } 
 h2, h3 {
-  background-color: beige;
+  background-color: #000000;
+  color: white
 }
 
 body {
-background-color: salmon;
+background-color: #000080;
 }
+
+  white-text {
+  color: white;
+  }
 
 li {
   list-style-image: url('Johnny Dangerously.png');
