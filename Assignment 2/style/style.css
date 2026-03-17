@@ -27,3 +27,7 @@ h2, h3 {
 body {
 background-color: salmon;
 }
+
+li {
+  list-style-image: url('Johnny Dangerously.png');
+}
