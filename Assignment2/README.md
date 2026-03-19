@@ -1,0 +1,1 @@
+I'm doing ok, I'm having trouble getting my website to preview on my computer. This module went well, I enjoyed getting into the flow of coding.
