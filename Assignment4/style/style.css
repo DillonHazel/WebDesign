@@ -1,0 +1,63 @@
+body {
+  background: radial-gradient(circle, #000080 0%, #000000 100%);
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* NAVBAR (same style) */
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+nav a {
+  display: block;
+  padding: 15px 25px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #5a3e36;
+}
+
+/* TITLE SECTION (cinematic panel) */
+.title {
+  text-align: center;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.8)
+  );
+  padding: 30px;
+  margin: 30px auto;
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.4);
+}
+
+/* CONTENT SECTION */
+.content {
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.8)
+  );
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0, 0, 255, 0.3);
+}
+
+/* TEXT ENHANCEMENT */
+h1, h2 {
+  text-shadow: 0 0 10px rgba(0, 0, 255, 0.7);
+}
