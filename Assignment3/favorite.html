@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <title>Favorites</title>
+  <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="info.html">Info</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+  </ul>
+</nav>
+</body>
+<h2>My Favorite Books</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Author</th>
+      <th>Genre</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Ready Player One</td>
+      <td>Ernest Cline</td>
+      <td>Sci Fi</td>
+    </tr>
+    <tr>
+      <td>Project Hail Mary</td>
+      <td>Andy Weir</td>
+      <td>Sci Fi</td>
+    </tr>
+        <tr>
+      <td>Napalm and Silly Putty</td>
+      <td>George Carlin</td>
+      <td>Comedy</td>
+    </tr>
+  </tbody>
+</table>
+
+<form>
+  <fieldset>
+    <legend>Favorite Book Survey</legend>
+
+    <label>Your Name:</label>
+    <input type="text" name="name" placeholder="Your name">
+
+    <label>Email Address:</label>
+    <input type="email" name="email" placeholder="Your email">
+
+    <label>Submit Your Favorite Book:</label>
+    <input type="text" name="favorite-book" placeholder="Favorite book">
+
+    <label>Favorite Genre:</label>
+    <select name="genre">
+      <option>Classic</option>
+      <option>Fantasy</option>
+      <option>Sci-Fi</option>
+      <option>Romance</option>
+    </select>
+
+    <p>Preferred Format:</p>
+    <label><input type="radio" name="format"> Print</label>
+    <label><input type="radio" name="format"> eBook</label>
+    <label><input type="radio" name="format"> Audiobook</label>
+
+    <label>
+      <input type="checkbox" name="subscribe">
+      Subscribe to newsletter
+    </label>
+
+    <button type="submit">Submit</button>
+  </fieldset>
+</form>
+
+</html>
