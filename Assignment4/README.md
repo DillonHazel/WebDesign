@@ -1,0 +1,2 @@
+# Assignment 4
+## Flex box and grid were a little difficult to work with at first, but I eventually wrapped my head around it. In the future I may try starting with organizing my code first before I get into the specifics because I was having trouble with that. I like Flex box but grid seems a little easier to work with.
