@@ -17,10 +17,15 @@ body {
 }
 
 .product-card {
+  display: grid;
+  grid-template-rows: auto auto auto 1fr auto;
+  gap: 10px;
+
   background: #f4f4f4;
   padding: 20px;
   width: 250px;
   border-radius: 10px;
+  transition: 0.3s;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
