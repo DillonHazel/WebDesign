@@ -1,0 +1,172 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  background-color: #333;
+}
+
+.nav a {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.welcome-title {
+  color: white;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 3rem;
+}
+
+.welcome-text {
+  color: #d9e6ff;
+  text-align: center;
+  max-width: 600px;
+  margin: 20px auto;
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+body {
+  margin: 0;
+  background-color: #0b1d39;
+  display: block; /* IMPORTANT */
+}
+
+.home-content {
+  display: block;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.blog-preview {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  max-width: 900px;
+  margin: 30px auto;
+
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.blog-preview img {
+  width: 35%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.blog-text {
+  color: #d9e6ff;
+  display: flex; /* another flexbox. We can nest them! */
+  flex-direction: column; /* stacks each text element vertically */
+  gap: 10px; /* adds consistent space between elements */
+}
+
+.date {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  color: #666;
+  margin: 0;
+}
+
+.blog-post-page {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 20px;
+  color: #d9e6ff;
+}
+
+.post-title {
+  color: #d9e6ff;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.post-preview {
+  color: #d9e6ff;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+
+.read-more {
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  color:  #d9e6ff;
+  margin-top: 10px;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 10px;
+  margin: auto;
+  padding: 10px;
+}
+
+.item {
+  color: #d9e6ff;
+  background-color: #CC5500;
+  border-radius: 8px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+}
+.item p {
+  text-align: center;
+}
+body {
+  margin: 0;
+}
+
+.text-box {
+  text-align: center;
+  background-color: rgba(204, 85, 0, 0.25);
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 40px auto;
+  color: #d9e6ff;
+}
+
+.footer {
+  display: flex; /* Places all footer sections (icons + lists) side by side in a row */
+  justify-content: space-between; /* Adds equal space between each section horizontally */
+  align-items: flex-start; /* Aligns all sections to the top of the footer */
+  background-color: #d5d0dd; /* Sets the footer’s background color */
+  padding: 30px 100px; /* Adds space inside the footer: 30px top/bottom, 100px left/right */
+  font-family: Arial, Helvetica, sans-serif; /* Sets the font for the entire footer */
+}
+
+.footer ul {
+  list-style: none; /* Removes the default bullets from list items */
+  padding: 0; /* Removes default padding inside the <ul> */
+  margin: 0; /* Removes default margin outside the <ul> */
+}
+
+.footer li {
+  margin-bottom: 6px; /* Adds a little space between each list item */
+  font-size: 14px; /* Makes the text slightly smaller for a neat footer look */
+}
+
+.social-icons img {
+  width: 22px; /* Sets consistent icon size */
+  margin-right: 10px; /* Adds space between the icons */
+  vertical-align: middle; /* Keeps icons visually aligned with any text nearby */
+}
