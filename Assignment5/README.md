@@ -1,0 +1,1 @@
+## I’m feeling good about the assignment and was able to successfully build my grid and flexbox layouts. I’m still getting more comfortable with Bootstrap, but it’s starting to make sense. One thing I’d like help with is improving consistency across pages and making sure I’m structuring my components in the cleanest way possible.
